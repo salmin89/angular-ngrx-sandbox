@@ -1,0 +1,5 @@
+<div *ngIf="rules$ | async as rules">
+  <div *ngFor="let rule of rules">
+    {{ rule }}
+  </div>
+</div>
